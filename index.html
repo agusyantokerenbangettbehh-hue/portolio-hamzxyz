@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio personal Hamzyxz, Web Developer." />
+  <title>Portfolio — Hamzyxz</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a class="logo" href="#home">&lt;YI<span>/&gt;</span></a>
+
+    <button class="menu-toggle" aria-label="Buka menu">☰</button>
+
+    <nav class="nav-links">
+      <a href="#about">Tentang</a>
+      <a href="#projects">Proyek</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <div class="nav-tools">
+      <button class="theme-toggle" type="button" aria-label="Aktifkan tema gelap" aria-pressed="true">☾</button>
+      <a class="nav-cta" href="#contact">Mari ngobrol <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero section">
+
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="dot"></span>
+          Web Developer
+        </p>
+
+        <h1>
+          Membangun pengalaman digital yang
+          <em>berkesan.</em>
+        </h1>
+
+        <p class="hero-text">
+          Saya Hamzyxz, seorang developer yang senang mengubah ide menjadi website modern, interaktif, dan mudah digunakan.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Lihat karya <span>↓</span>
+          </a>
+
+          <a class="button button-ghost" href="#contact">
+            Hubungi saya <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Ilustrasi dekoratif">
+        <div class="orb orb-main"></div>
+        <div class="orb orb-small"></div>
+
+        <div class="code-card">
+          <span class="code-muted">// portfolio.js</span><br />
+          <span class="code-purple">const</span>
+          <span class="code-blue">developer</span> =
+          <span class="code-orange">"Hamzyxz"</span>;<br />
+
+          <span class="code-purple">return</span>
+          <span class="code-green"> creativity</span>;
+        </div>
+      </div>
+
+    </section>
+
+    <section id="about" class="section split-section">
+
+      <div>
+        <p class="section-label">01 — Tentang saya</p>
+
+        <h2>
+          Belajar dari ide,<br />
+          <em>berkarya dengan kode.</em>
+        </h2>
+      </div>
+
+      <div class="about-copy">
+        <p>
+          Saya adalah developer yang tertarik dengan dunia web development dan teknologi.
+        </p>
+
+        <p>
+          Saya senang mempelajari HTML, CSS, JavaScript, serta mengembangkan berbagai proyek digital secara mandiri.
+        </p>
+
+        <a class="text-link" href="#projects">
+          Lihat proyek saya <span>↗</span>
+        </a>
+      </div>
+
+    </section>
+
+    <section id="projects" class="section">
+
+      <div class="section-heading">
+
+        <div>
+          <p class="section-label">02 — Proyek pilihan</p>
+
+          <h2>
+            Beberapa karya<br />
+            <em>yang saya bangun.</em>
+          </h2>
+        </div>
+
+        <span class="project-count">01 / 02</span>
+
+      </div>
+
+      <div class="project-grid">
+
+        <!-- AmpresentFinder -->
+
+        <article class="project-card project-one">
+
+          <div class="project-visual visual-dashboard">
+
+            <a
+              href="https://ampresentfinderbyhamzxyz.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fampresentfinderbyhamzxyz.vercel.app?w=1200"
+                alt="Preview website AmpresentFinder"
+                loading="lazy"
+              />
+            </a>
+
+          </div>
+
+          <div class="project-info">
+
+            <div>
+              <h3>AmpresentFinder</h3>
+              <p>Web Application</p>
+            </div>
+
+            <a
+              href="https://ampresentfinderbyhamzxyz.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Buka AmpresentFinder"
+            >
+              ↗
+            </a>
+
+          </div>
+
+        </article>
+
+        <!-- Downly -->
+
+        <article class="project-card project-two">
+
+          <div class="project-visual visual-shop">
+
+            <a
+              href="https://downly-beta.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdownly-beta.vercel.app?w=1200"
+                alt="Preview website Downly"
+                loading="lazy"
+              />
+            </a>
+
+          </div>
+
+          <div class="project-info">
+
+            <div>
+              <h3>Downly</h3>
+              <p>Media Downloader</p>
+            </div>
+
+            <a
+              href="https://downly-beta.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Buka Downly"
+            >
+              ↗
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <section id="skills" class="section skills-section">
+
+      <p class="section-label">03 — Keahlian</p>
+
+      <div class="skills-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Frontend Development</span>
+        <span>Responsive Design</span>
+        <span>Web Development</span>
+      </div>
+
+    </section>
+
+    <section id="contact" class="section contact-section">
+
+      <p class="section-label">04 — Kontak</p>
+
+      <h2>
+        Punya ide menarik?<br />
+        <em>Mari berkolaborasi.</em>
+      </h2>
+
+      <div class="socials">
+        <a href="https://www.instagram.com/jlnqwe2?obrf=bnk0cDl4dTV1aDg2" target="_blank" rel="noopener noreferrer">
+          Ig ↗
+        </a>
+
+        <a href="https://github.com/agusyantokerenbangettbehh-hue" target="_blank" rel="noopener noreferrer">
+          Github ↗
+        </a>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <span>© 2026 Hamzyxz</span>
+    <span>Dibuat dengan kopi & kreativitas.</span>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
